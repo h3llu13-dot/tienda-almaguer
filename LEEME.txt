@@ -1,0 +1,19 @@
+TIENDA ALMAGUER: versión para Chromebook (aplicación web instalable)
+
+Estos archivos se publican una vez en un sitio web (https). Después, la
+aplicación se instala en el Chromebook y funciona SIN INTERNET.
+
+1. Suba TODOS los archivos de esta carpeta, tal como están, a un sitio
+   web estático (por ejemplo GitHub Pages, Netlify o Cloudflare Pages).
+2. En el Chromebook, abra la dirección del sitio en Chrome.
+3. Haga clic en el ícono de instalar en la barra de direcciones (o en
+   Menú ⋮ → Transmitir, guardar y compartir → Instalar página como app).
+4. Listo: "Tienda Almaguer" aparece en el menú de aplicaciones y abre en
+   su propia ventana, con o sin internet.
+
+Los datos se guardan en cada Chromebook. Use Ajustes → Copias de seguridad
+para descargar copias con frecuencia.
+
+Para actualizar la aplicación: reemplace index.html en el sitio y cambie
+VERSION en sw.js. Los equipos se actualizan solos la próxima vez que
+abran la aplicación con internet.
